@@ -22,11 +22,11 @@ router.post('/create', (req, res) =>{
     res.send('Post req');
 });
 
-router.put('/update', (req, res) =>{
+router.put('/update/:id', (req, res) =>{
     res.send('Put req');
 });
 
-router.delete('/delete', (req, res) =>{
+router.delete('/delete/:id', (req, res) =>{
     res.send('Delete req');
 });
 export default router;
