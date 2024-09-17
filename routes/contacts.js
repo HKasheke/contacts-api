@@ -23,10 +23,10 @@ router.post('/create', (req, res) =>{
 });
 
 router.put('/update/:id', (req, res) =>{
-    res.send('Put req');
+    res.send('Put req' + id);
 });
 
 router.delete('/delete/:id', (req, res) =>{
-    res.send('Delete req');
+    res.send('Delete req' + id);
 });
 export default router;
